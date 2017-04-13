@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background-color:#f0f7ee;
+}
+
+h1{}
+h2{padding:0; margin:0; color:white; font-family: sans-serif;}
+P{padding:0; margin:0; color:white; font-family: sans-serif; font-size:15px;}
+h3{padding:0; margin:0; color:black; font-family: sans-serif;}
+h4{padding:0; margin:0; color:white; font-family: sans-serif;}
+
+/* HIER KOMT HET MENU */
+.menu-balk{
+    margin:0 auto;
+    width:960px;
+    height:62px;
+    background-color: white;
+}
+.menu-wrapper{
+    width:960px;
+    margin:0 auto;
+}
+nav {
+    padding-top:18px;
+}
+nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    float:right;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 35px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:darkslategray;
+    font-size:16px;
+    font-weight:bold;
+    font-family: sans-serif;
+    padding:0;
+    margin:0;
+}
+nav ul li a:hover {
+    color:#007500;
+}
+/* EIND VAN HET MENU */
+
+/* BEGIN BANNER */
+.banner-foto {
+    width:960px;
+    height:450px;
+    
+    background: url(../fotos/mitch-rosen-137327.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin:0 auto;
+}
+.banner-kleur{
+    width:920px;
+    height:300px;
+    background-color:rgba(0,0,0,0.7);
+    padding-top:150px;
+    padding-left:40px;
+}
+.banner-content{
+}
+.bet-now{
+    color:white;
+    border:none; 
+    background-color:#007500;
+    width:auto;
+    height:auto;
+    padding:10px 10px;
+    transition:0.5s;
+}
+.bet-now:hover{
+    background-color:darkgreen;
+    transition:0.5s;
+    font-size:17px;
+    
+}
+/* EINDE BANNER */
+
+.container {
+    padding-top:30px;
+    width: 960px;
+    margin:0 auto;
+    height:auto;
+}
+.homepagina-tekst{
+    margin-top:15px;
+    color:black;
+}
+.bet-layout{
+    margin-top:20px;
+    width: calc(100% - 50px);
+    height:140px;
+    background-color:white;
+    border-top:4px solid #007500;
+    padding:10px 25px;
+}
+.bet-layout p {
+    color:black;
+}
+.bet-layout a {
+    color:black;
+    text-decoration: none;
+    font-family:sans-serif;
+    
+}
+/* BEGIN FOOTER */
+
+.footer {
+    margin-top:50px;
+    width: 100%;
+    background-color:#989788;
+    height:250px;
+}
+
+/* EINDE FOOTER */
